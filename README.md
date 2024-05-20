@@ -1,6 +1,6 @@
 # Alex Harry Resume
 
-This repository contains the HTML and CSS source code for my resume. The resume is designed with a strong mathematics background and experience in embedded programming.
+This repository contains the HTML and CSS source code for my resume. This repository contains the HTML and CSS source code for my resume. The resume is designed to play well with the ATS systems.
 
 ## Contents
 
