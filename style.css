@@ -86,6 +86,7 @@ html, body {
 .left_titles{
     font-size: 16pt;
     font-weight: bold;
+    line-height: 18pt;
 }
 .left_subtitle{
     font-size: 14pt;
@@ -108,7 +109,8 @@ html, body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    
+    font-size: 11pt;
+    line-height: 14pt;
 }
 .project_list{
     position: relative;
@@ -117,7 +119,7 @@ html, body {
     display: block;
     padding-left: 6px;
 }
-.project_list_chain{
+.dark_list_chain{
     background-image: linear-gradient(#FFFFFF00, var(--vertical_bullet_chain) 10% 90%, #FFFFFF00);
     height: 100%;
     width: 1.7px;
@@ -125,7 +127,23 @@ html, body {
     left: 3px;
     z-index: -2;
 }
+.light_list_chain{
+    background-image: linear-gradient(#FFFFFF00, var(--right_column_color) 10% 90%, #FFFFFF00);
+    height: 100%;
+    width: 1.7px;
+    position: absolute;
+    left: 3px;
+    z-index: -2;
+}
+.job_projects{
+    line-height: 12pt;
+    padding-left: 5px;
+}
 .job_block{
+    position: relative;
+    padding-left: 8px;
+}
+.flex_start{
     display: flex;
     justify-content: flex-start;
 }
@@ -139,6 +157,32 @@ html, body {
 .job_location{
     color: var(--left_subtitle);
     width: 50%;
+    line-height: 12pt;
+}
+.job_description{
+    color: var(--left_subtitle);
+    line-height: 14pt;
+    size: 11pt;
+}
+.project_descriptoin{
+    display: list-item;
+    list-style: none;
+    background-image: url(bullet_point_right.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 7px;
+    background-size: 9px;
+    margin: 5pt 0;
+    padding-left: 12px;
+    line-height: 16pt;
+}
+.descriptive_bullet{
+    display: list-item;
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 10pt;
+    margin: 0 0;
+    padding-left: 12px;
+    line-height: 13pt;
 }
 .key_projects{
     padding-left: 10px; 
