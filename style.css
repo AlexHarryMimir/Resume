@@ -197,7 +197,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 230px;
+    padding-bottom: 180px;
 }
 .right_bullets{
     padding-left: 10%;
