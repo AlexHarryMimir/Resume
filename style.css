@@ -20,6 +20,8 @@ html, body {
     margin: 0;
     padding: 0;
     color: black;
+    height: 11in;
+    width: 8.5in;
 }
 
 .resume_body{
@@ -89,16 +91,17 @@ html, body {
     line-height: 18pt;
 }
 .left_subtitle{
-    font-size: 14pt;
+    font-size: 12pt;
+    line-height: 14pt;
     font-weight: bold;
 }
 .education_date{
     font-style: italic;
+    padding-right: 40px;
 }
 .school{
     display: flex;
     justify-content: space-between;
-    padding-right: 80px;
 }
 .double_column{
     display: flex;
@@ -117,14 +120,14 @@ html, body {
 }
 .left_item{
     display: block;
-    padding-left: 6px;
+    padding-left: 2px;
 }
 .dark_list_chain{
     background-image: linear-gradient(#FFFFFF00, var(--vertical_bullet_chain) 10% 90%, #FFFFFF00);
     height: 100%;
     width: 1.7px;
     position: absolute;
-    left: 3px;
+    left: -1px;
     z-index: -2;
 }
 .light_list_chain{
@@ -132,12 +135,11 @@ html, body {
     height: 100%;
     width: 1.7px;
     position: absolute;
-    left: 3px;
+    left: 2px;
     z-index: -2;
 }
 .job_projects{
     line-height: 12pt;
-    padding-left: 5px;
 }
 .job_block{
     position: relative;
@@ -145,18 +147,16 @@ html, body {
 }
 .flex_start{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding-right: 40px;
 }
 .job_co{
     font-weight: bold;
-    width: 30%;
 }
 .job_title{
-    width: 30%;
 }
 .job_location{
     color: var(--left_subtitle);
-    width: 50%;
     line-height: 12pt;
 }
 .job_description{
@@ -185,8 +185,9 @@ html, body {
     line-height: 13pt;
 }
 .key_projects{
-    padding-left: 10px; 
+    padding-left: 10px;
     font-weight: bold;
+    font-size: 12pt;
 }
 .right_column{
     background-image: linear-gradient(180deg, var(--right_column_color) 60%, var(--right_column_color_2) 100%);
@@ -195,7 +196,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 250px;
+    padding-bottom: 230px;
 }
 .right_bullets{
     padding-left: 10%;
@@ -212,6 +213,7 @@ html, body {
 }
 .right_bullet_subtitle{
     font-size: 12pt;
+    
     color: var(--column_subtext);
     font-weight: bold;
 }
